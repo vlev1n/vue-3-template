@@ -13,13 +13,13 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.2.3",
+    "@vitejs/plugin-vue": "^1.2.4",
     "@vue/compiler-sfc": "^3.0.5",
     "autoprefixer": "^10.2.6",
     "postcss": "^8.3.5",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^2.2.4",
-    "vite": "^2.3.8",
+    "vite": "^2.4.0",
     "vite-plugin-style-import": "^1.0.1"
   }
 }
