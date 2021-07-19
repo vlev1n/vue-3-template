@@ -19,7 +19,8 @@ localize(lang)
 
 // vlevin @ 2021-04-15 样式
 import 'element-plus/lib/theme-chalk/index.css'
-import './tailwind.css'
+import 'virtual:windi.css'
+import './directives.css'
 
 // vlevin @ 2021-07-05 创建应用、全局变量
 const app = createApp(App).use(router).use(store).use(ElMessage)

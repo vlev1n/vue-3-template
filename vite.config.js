@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import styleImport from 'vite-plugin-style-import'
+import WindiCSS from 'vite-plugin-windicss'
 
 export default defineConfig({
   resolve: {
@@ -13,6 +14,7 @@ export default defineConfig({
   // vlevin @ 2021-04-15 Vite的proxy似乎暂时不好用
   plugins: [
     vue(),
+    WindiCSS(),
     styleImport({
       libs: [
         {
