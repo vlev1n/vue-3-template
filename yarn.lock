@@ -40,6 +40,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@element-plus/icons@npm:^0.0.11":
+  version: 0.0.11
+  resolution: "@element-plus/icons@npm:0.0.11"
+  checksum: 99289af22df978ce9dce636e8bfccd82edbd3911754edbbca3907ff6cc326551284f1cc043a13a51f85d9723477742154aa356172d8059b244e3becfc17eecac
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -84,7 +91,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^4.1.0":
+"@rollup/pluginutils@npm:^4.1.1":
   version: 4.1.1
   resolution: "@rollup/pluginutils@npm:4.1.1"
   dependencies:
@@ -115,12 +122,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-vue@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@vitejs/plugin-vue@npm:1.3.0"
+"@vitejs/plugin-vue@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@vitejs/plugin-vue@npm:1.4.0"
   peerDependencies:
     "@vue/compiler-sfc": ^3.0.8
-  checksum: 29d4cad645217856e16dc42bb3d2eb34c8e85f33d26e93fe57af088f291a6c688f9d2e79826b6e4be248acbd02676ced09da01add6926e225f7267124c6be605
+  checksum: 2c4587722384c86dd791d7a068bde3eb05fae1f78fab63ecd304ac793b70f4b5587bfdf419367ab94911a70116bb411bd31f2ab038ad28398cd46acc2b385948
   languageName: node
   linkType: hard
 
@@ -598,10 +605,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"element-plus@npm:^1.0.2-beta.65":
-  version: 1.0.2-beta.65
-  resolution: "element-plus@npm:1.0.2-beta.65"
+"element-plus@npm:^1.0.2-beta.70":
+  version: 1.0.2-beta.70
+  resolution: "element-plus@npm:1.0.2-beta.70"
   dependencies:
+    "@element-plus/icons": ^0.0.11
     "@popperjs/core": ^2.4.4
     async-validator: ^3.4.0
     dayjs: 1.x
@@ -611,7 +619,7 @@ __metadata:
     resize-observer-polyfill: ^1.5.1
   peerDependencies:
     vue: 3.1.x
-  checksum: 9238a09b6ba787d92134e78a5af92f89716cf8da2a503c14078b4219edc06e2434ddd0ec230fdc58616ce7b126e0cd431651793a34bb78329d5a09d80ccdfb36
+  checksum: 27ef7ecb667364e685a30c2e2532051d2dd7fe0d98e4169bf749667796af560d41df0d00a859d4062016aee4426ffd807426e4d8872dccb95ef13420bf462394
   languageName: node
   linkType: hard
 
@@ -645,10 +653,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-module-lexer@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "es-module-lexer@npm:0.6.0"
-  checksum: 6c7c64adab628ee53a9d90d65db13e574e1132db808d43d9a9f912944c97d36dc05d5bafed79245c8e9880cf2bcf0fef54663364fd08c8d59053717a4a69db7f
+"es-module-lexer@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "es-module-lexer@npm:0.7.1"
+  checksum: 3bc1416512f44343c88bbfb7d1685c11a3cb9aca6090a552b04e9bd802d778ae66aa076f2d4cd5f707061d3264ac3ff2b6a45a55f0f139a966190e57ab497571
   languageName: node
   linkType: hard
 
@@ -1633,17 +1641,17 @@ resolve@^1.20.0:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@vitejs/plugin-vue": ^1.3.0
+    "@vitejs/plugin-vue": ^1.4.0
     "@vue/compiler-sfc": ^3.1.5
-    element-plus: ^1.0.2-beta.65
+    element-plus: ^1.0.2-beta.70
     mitt: ^3.0.0
     vite: ^2.4.4
-    vite-plugin-style-import: ^1.0.1
+    vite-plugin-style-import: ^1.1.1
     vite-plugin-windicss: ^1.2.7
     vue: ^3.1.5
     vue-router: ^4.0.10
     vuex: ^4.0.2
-    windicss: ^3.1.6
+    windicss: ^3.1.7
   languageName: unknown
   linkType: soft
 
@@ -1918,18 +1926,18 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"vite-plugin-style-import@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "vite-plugin-style-import@npm:1.0.1"
+"vite-plugin-style-import@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "vite-plugin-style-import@npm:1.1.1"
   dependencies:
-    "@rollup/pluginutils": ^4.1.0
+    "@rollup/pluginutils": ^4.1.1
     change-case: ^4.1.2
     debug: ^4.3.2
-    es-module-lexer: ^0.6.0
+    es-module-lexer: ^0.7.1
     magic-string: ^0.25.7
   peerDependencies:
     vite: ">=2.0.0"
-  checksum: d2849074b988d57dcf199b10812f7dd65d54aadcc66be3e9556904b732cf404074afaadf73f3b5a3b0aa84b310b48d9a5478a78362754352347693d623fc6460
+  checksum: fece82ac514bd1b7cfb6b9c95b89f4ee0dfbfbe7c58c2a25cfa21ae1b7d069990afefce3a625672a7547b679a916ab5bd47f538d491531eb2c8a17a63ede386d
   languageName: node
   linkType: hard
 
@@ -2024,6 +2032,15 @@ resolve@^1.20.0:
   bin:
     windicss: cli/index.js
   checksum: 2fbc67883e5f478fb1be3362b4b37da72ccd90766499c9c3773ef7343c468e745a62b9d3aa33b4e71f8f7b7a5be518256eb2e0c695f42d032ac670ec4e076c14
+  languageName: node
+  linkType: hard
+
+"windicss@npm:^3.1.7":
+  version: 3.1.7
+  resolution: "windicss@npm:3.1.7"
+  bin:
+    windicss: cli/index.js
+  checksum: a0f24aee0ee30b92a91f351c9539b5ac458aa5c6348011d7feab1b72f08fbd2401cbc1f40f5e4f71c0e2f86e38e2f3f8d7ab50f620b6b32381d729c703f6bf07
   languageName: node
   linkType: hard
 
